@@ -4,6 +4,28 @@ body {
     font-family: sans-serif;
 }
 
+nav {
+    margin: 0px
+}
+.menu ul{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navitem{    
+    background: hsl(158, 83%, 26%);
+    padding: 20px 5px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.navitem a {
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+}
+
 h1 {
     margin-top: 1rem;
     margin-bottom: 2rem;
@@ -11,5 +33,16 @@ h1 {
 }
 
 .description {
+    display:flex;
+    flex-direction: row;
     color: hsl(117, 44%, 75%);
+}
+
+.description div{
+    display: inline-block;
+    width: 100%;
+}
+
+.description div h4{
+    text-align: center;
 }
