@@ -2,12 +2,19 @@ body {
     background-color: hsl(188, 82%, 13%);
     color: hsl(117, 47%, 55%);
     font-family: sans-serif;
+    
 }
 
 nav {
-    margin: 0px
+    margin-left: 0px;
+    width: 100%;
+    padding: 0px;
+    margin-top: -16px;
+    margin-left: -8px;
+    margin-right: 0px;
 }
 .menu ul{
+    padding: 0px;
     display:flex;
     flex-direction: row;
     list-style: none;
@@ -41,6 +48,8 @@ h1 {
 .description div{
     display: inline-block;
     width: 100%;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .description div h4{
