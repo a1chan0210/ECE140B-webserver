@@ -2,16 +2,19 @@ body {
     background-color: hsl(188, 82%, 13%);
     color: hsl(117, 47%, 55%);
     font-family: sans-serif;
-    
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size:1.5rem;
 }
+
 
 nav {
     margin-left: 0px;
-    width: 100%+16px;
+    width: 100%+1rem;
     padding: 0px;
-    margin-top: -16px;
-    margin-left: -8px;
-    margin-right: -8px;
+    margin-top: -1rem;
+    margin-left: -2rem;
+    margin-right: -2rem;
 }
 .menu ul{
     padding: 0px;
@@ -22,36 +25,102 @@ nav {
 
 .navitem{    
     background: hsl(158, 83%, 26%);
-    padding: 20px 5px;
+    padding: 1.5rem .5rem;
     display: inline-block;
     width: 100%;
     text-align: center;
 }
+
+.navitem:hover{
+    background: hsl(158, 95%, 32%);
+}
+
 .navitem a {
     color: white;
-    font-weight: 300;
+    font-weight: bold;
+    font-size: 1.5rem;
     text-decoration: none;
 }
 
 h1 {
     margin-top: 1rem;
     margin-bottom: 2rem;
-
+    font-size: 4rem;
 }
 
 .description {
-    display:flex;
+    display:block;
     flex-direction: row;
     color: hsl(117, 44%, 75%);
 }
 
 .description div{
     display: inline-block;
-    width: 100%;
     padding-left: 3rem;
     padding-right: 3rem;
 }
 
 .description div h4{
     text-align: center;
+    font-size:2.5rem;
+    margin-bottom: 2rem;
+}
+
+.empathymap {
+    margin-top: 3rem;
+
+}
+
+.empathymap .description ul {
+    list-style: inside;
+    padding: 0;
+
+}
+
+.empathymap .description ul li {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+@media all and (min-width: 1024px) {
+    body{
+        font-size:1.5rem;
+    }
+
+    h1 {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+    }
+    
+    .description {
+        display:flex;
+        flex-direction: row;
+        color: hsl(117, 44%, 75%);
+        font-size: 1rem;
+    }
+    
+    .description div{
+        width:100%;
+        font-size:1rem;
+    }
+
+    .description div h4{
+        font-size:1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .empathymap {
+        text-align: center;
+    }
+
+    .empathymap .description ul {
+        list-style: none;
+        padding: 0;
+
+    }
+    .empathymap .description ul li {
+        margin-bottom: .5rem;
+        margin-top: .5rem;
+    }
 }
