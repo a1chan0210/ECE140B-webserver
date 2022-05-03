@@ -123,4 +123,8 @@ h1 {
         margin-bottom: .5rem;
         margin-top: .5rem;
     }
+    
+    .mockup {
+        text-align: center;
+    }
 }

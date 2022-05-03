@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Laws of UI Design Examples </title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{%  static  'css/style.css'  %}">
+</head>
+<body>
+
+    <nav class = "menu">
+        <ul>
+            <li class = "navitem"><a href = "../">Home</a></li>
+            <li class = "navitem"><a href = "../KVP">KVP</a></li>
+            <li class = "navitem"><a href = "">Laws of UI</a></li>
+        </ul>
+    </nav>
+
+    <h1> Laws of UI Design Examples </h1>
+
+    <div class = "intro">
+
+    </div>
+
+    <div class = "UIdesign">
+        <div class = "description">
+            <div>
+                <h4> Hick's Law </h4>
+                <h5> League of Legends Client </h5>
+                <p>
+                    The League of Legends client is a example of bad UI design with Hick's Law. There are two locations that look the same 
+                    but only one is interactable. To pick the roles you want to play in League of Legends, you need to select them with the 
+                    two circles at the bottom which I have circled in red. The two icons boxed in blue only shows the roles you have selected
+                    and you cannot interact with those icons. This change to the game client sparked some outrage in the community over the 
+                    poor UI design. The 2 sets of icons that show the same information provide no extra benefit to the user experience but instead
+                    hinders it as it adds more confusion to the icons purpose, which is to select the roles you want to play in the game.
+                </p>
+
+                {% load static %} <img src ="{% static "media/hickslaw.PNG" %}" alt = "home" width = "500rem"/>
+            </div>
+    
+            <div>
+                <h4> Jacob's Law </h4>
+                <h5> Microsoft Word and Google Docs</h5>
+                <p>
+                    The relatively more recent google docs took advantage of Jacobs Law to develop a good UI for its product. The interface at the 
+                    top is similar to its competitor which completes the same function, Microsoft Word. As many people at the time are used to using 
+                    Microsoft Word and its interface, Google Doc's similar interface to Microsoft Word allowed an easy transition from customers that 
+                    used Microsoft Word to using Google Docs.
+                </p>
+
+                {% load static %} <img src ="{% static "media/jacobslaw.png" %}" alt = "home" width = "500rem"/>
+            </div>
+    
+            <div>
+                <h4> Law of Proximity </h4>
+                <h5> Canvas </h5>
+                <p>
+                    The Canvas service used in many universities creates a good UI using the Law of Proximity. It organizes things together in a way that
+                    makes sense. On the left, it has put together all the tabs you need for navigating the website. In the center of the home page, it places
+                    all your classes together so that it is easily accessable and you always know where to find your class information. On the right, it compiles 
+                    a to do list of all the upcoming tasks and events.
+                </p>
+
+                {% load static %} <img src ="{% static "media/LawofProximity.PNG" %}" alt = "home" width = "500rem"/>
+            </div>
+        </div>
+    </div>
+    
+
+    
+</body>
+</html>

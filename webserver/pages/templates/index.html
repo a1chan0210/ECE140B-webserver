@@ -12,6 +12,7 @@
         <ul>
             <li class = "navitem"><a href = "">Home</a></li>
             <li class = "navitem"><a href = "KVP">KVP</a></li>
+            <li class = "navitem"><a href = "LawsofUI">Laws of UI</a></li>
         </ul>
     </nav>
 
@@ -122,6 +123,32 @@
         </div>
 
     </div>
+
+    <div class = "mockup"> 
+        <h2> Our Current Product Mock-Up </h2>
+        <div class = "description">
+            <div>
+                <h4> Our Overall Concept Design</h4>
+                <div>
+                    The pep pet is planned to be a small handheld device that children will take care of. It will have indicators for 
+                    hunger and happiness as well as an experience bar to show growth. There will be buttons to be able to interact with it
+                    in ways such as feeding the pet, putting it to sleep, and other activities.
+                </div>
+                {% load static %} <img src ="{% static "media/conceptdesign.jpeg" %}" alt = "home" height = "500rem"/>
+            </div>
+            <div>
+                <h4> Our Feeding Functionality</h4>
+                <div>
+                    This is the UI design we have so far. There will be 3 buttons. 2 buttons on each side will be used to select between options.
+                    The button in the middle will be used to select the action. For this particular example, the feeding function is shown. You 
+                    will be able to select to feed the pet, then select a type of food. This will increase the hunger bar to show that the Pep Pet
+                    has been fed and is satisfied.
+                </div>
+                {% load static %} <img src ="{% static "media/feeding.png" %}" alt = "home" width = "500rem" />
+            </div>
+        </div>
+    </div>
+    
 
     
 </body>
