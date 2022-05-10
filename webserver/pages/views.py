@@ -11,4 +11,4 @@ def LawsofUI(request):
     return render(request, 'LawsofUI.html')
 
 def ProductIA(request):
-    return render(request, 'ProductIA.html')
+    return render(request, 'productIA.html')
