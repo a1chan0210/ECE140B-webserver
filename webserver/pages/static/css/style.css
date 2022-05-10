@@ -32,14 +32,21 @@ nav {
 }
 
 .navitem:hover{
-    background: hsl(158, 95%, 32%);
+    background: hsl(158, 97%, 34%);
+    padding-top: 1.25rem;
+    padding-bottom: 1rem;
+
+}
+
+.navitem:hover a{
+    font-size: 2rem;
 }
 
 .navitem a {
     color: white;
     font-weight: bold;
     font-size: 1.5rem;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 h1 {
@@ -86,6 +93,7 @@ h1 {
     body{
         font-size:1.5rem;
     }
+    
 
     h1 {
         margin-top: 1rem;

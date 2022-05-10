@@ -6,6 +6,7 @@ urlpatterns = [
     path('', views.index),
     path('KVP/', views.KVP),
     path('LawsofUI/', views.LawsofUI),
+    path('ProductIA/', views.ProductIA),
 ]
 
 urlpatterns += staticfiles_urlpatterns()
