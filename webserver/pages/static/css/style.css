@@ -55,6 +55,22 @@ h1 {
     font-size: 4rem;
 }
 
+th {
+    border-color: hsl(117, 33%, 62%);
+    border-width: .5rem;
+    border-style: ridge;
+    padding: 2rem;
+    color: hsl(117, 46%, 66%);
+}
+
+td {
+    border-color: hsl(117, 53%, 70%);
+    border-width: .15rem;
+    border-style: inset;
+    padding: 1rem;
+    color: hsl(117, 44%, 75%);
+}
+
 .description {
     display:block;
     flex-direction: row;

@@ -12,3 +12,9 @@ def LawsofUI(request):
 
 def ProductIA(request):
     return render(request, 'productIA.html')
+
+def FeatureBenefit(request):
+    return render(request, 'featurebenefit.html')
+
+def Interaction(request):
+    return render(request, 'interaction.html')
