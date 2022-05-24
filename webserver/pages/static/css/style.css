@@ -55,6 +55,10 @@ h1 {
     font-size: 4rem;
 }
 
+table {
+    margin-left:auto;
+    margin-right:auto;
+}
 th {
     border-color: hsl(117, 33%, 62%);
     border-width: .5rem;

@@ -18,3 +18,6 @@ def FeatureBenefit(request):
 
 def Interaction(request):
     return render(request, 'interaction.html')
+
+def Revenue(request):
+    return render(request, 'revenue.html')

@@ -9,6 +9,7 @@ urlpatterns = [
     path('ProductIA/', views.ProductIA),
     path('featurebenefit/', views.FeatureBenefit),
     path('interaction/', views.Interaction),
+    path('revenue/', views.Revenue),
 ]
 
 urlpatterns += staticfiles_urlpatterns()
