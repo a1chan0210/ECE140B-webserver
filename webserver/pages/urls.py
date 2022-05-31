@@ -10,6 +10,7 @@ urlpatterns = [
     path('featurebenefit/', views.FeatureBenefit),
     path('interaction/', views.Interaction),
     path('revenue/', views.Revenue),
+    path('pivot/', views.Pivot),
 ]
 
 urlpatterns += staticfiles_urlpatterns()

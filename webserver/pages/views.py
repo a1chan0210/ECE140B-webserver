@@ -21,3 +21,6 @@ def Interaction(request):
 
 def Revenue(request):
     return render(request, 'revenue.html')
+
+def Pivot(request):
+    return render(request, 'pivot.html')
